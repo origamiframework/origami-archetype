@@ -1,10 +1,19 @@
-# Архетип Origami
+<br>
+<div align="center">
+<img src="./img/logo.png" alt="Origami" width="200">
+
+# Архетип Origami Framework
+
+![Maven Central](https://img.shields.io/maven-central/v/ru.origamiframework/origami-framework-parent.svg)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Telegram Join](https://img.shields.io/badge/Telegram-Join%20channel-blue?logo=telegram)](https://t.me/origamiframework)
+</div>
 
 ## Инициализация репозитория
 
 Создаем репозиторий(например, на github), клонируем проект на локальную машину(git clone), создаем необходимую ветку
 
-<img alt="img_1.png" height="472" width="862" src="images/img_1.png"/>
+<img alt="img_1.png" height="472" width="862" src="img/img_1.png"/>
 
 ## Создание нового проекта из архетипа через консоль
 
