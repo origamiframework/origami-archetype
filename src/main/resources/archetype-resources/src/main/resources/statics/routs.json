@@ -1,0 +1,5 @@
+{
+  "example.service": {
+    "example.relative.uri": "/example"
+  }
+}

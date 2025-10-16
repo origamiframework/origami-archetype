@@ -1,0 +1,32 @@
+{
+  "example.service": {
+    "url": "https://example.ru/api/v1"
+  },
+  "db": {
+    "host": "host",
+    "name": "testdb",
+    "port": "5432",
+    "username": "postgres",
+    "password": "postgres",
+    "schema": "public"
+  },
+  "kafka": {
+    "bootstrap-servers": "10.7.7.5:9092,10.7.7.6:9092,10.7.7.7:9092",
+    "username": "username",
+    "password": "password",
+    "ssl.truststore.location": "src/main/resources/client.truststore.jks",
+    "ssl.truststore.password": "password"
+  },
+  "ibm.mq": {
+    "host": "10.7.7.5",
+    "queue.manager": "queue",
+    "channel": "channel",
+    "username": "username",
+    "password": "password"
+  },
+  "websocket": {
+    "url": "example.ru",
+    "endpoint": "api/ws-example",
+    "with.wss": true
+  }
+}

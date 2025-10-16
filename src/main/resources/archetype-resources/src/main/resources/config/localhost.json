@@ -1,0 +1,30 @@
+{
+  "example.api": {
+    "url": "http://localhost/api/v1",
+    "port": 8080
+  },
+  "db": {
+    "host": "localhost",
+    "name": "testdb",
+    "port": "5432",
+    "username": "postgres",
+    "password": "postgres",
+    "schema": "public"
+  },
+  "kafka": {
+    "bootstrap-servers": "http://localhost:29092"
+  },
+  "ibm.mq": {
+    "host": "10.7.97.5",
+    "queue.manager": "queue",
+    "channel": "channel",
+    "username": "username",
+    "password": "password"
+  },
+  "websocket": {
+    "url": "localhost",
+    "port": 8080,
+    "endpoint": "api/ws-example",
+    "with.wss": false
+  }
+}

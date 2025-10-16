@@ -1,0 +1,5 @@
+{
+  "example.service": {
+    "access.denied.error.message": "RBAC: access denied"
+  }
+}
