@@ -1,4 +1,3 @@
-<br>
 <div align="center">
 <img src="./img/logo.png" alt="Origami" width="200">
 
