@@ -26,10 +26,16 @@ mvn -U archetype:generate \
     -DinteractiveMode=false \
     -DarchetypeGroupId=ru.origamiframework \
     -DarchetypeArtifactId=origami-archetype \
-    -DarchetypeVersion=1.0.5 \
+    -DarchetypeVersion=1.0.6 \
     -DgroupId={GROUP_ID} -DartifactId={ARTIFACT_ID}
 ```
 
+mvn -U archetype:generate \
+-DinteractiveMode=false \
+-DarchetypeGroupId=ru.origamiframework \
+-DarchetypeArtifactId=origami-archetype \
+-DarchetypeVersion=1.0.6 \
+-DgroupId=tttt -DartifactId=yyyyy
 ## Дальнейшие действия
 
 В resources/origami.properties необходимо указать актуальные значения для свойств testit(при необходимости).
