@@ -26,7 +26,7 @@ mvn -U archetype:generate \
     -DinteractiveMode=false \
     -DarchetypeGroupId=ru.origamiframework \
     -DarchetypeArtifactId=origami-archetype \
-    -DarchetypeVersion=1.0.5 \
+    -DarchetypeVersion=1.0.6 \
     -DgroupId={GROUP_ID} -DartifactId={ARTIFACT_ID}
 ```
 

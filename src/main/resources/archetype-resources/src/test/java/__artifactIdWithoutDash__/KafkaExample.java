@@ -43,17 +43,17 @@ public class KafkaExample {
     @Description("Пример вычитки топика на всю глубину")
     void successConsumer() {
         // вычитываем все сообщения из топика
-        consumerSteps.readAllByKey(EXAMPLE_TOPIC, null);
+        consumerSteps.readAll(EXAMPLE_TOPIC);
 
         // вычитываем первое сообщение с конца, которое будет содержать "123", и мапим его из json в объект переданного класса
         // вычитка производится из указанных партиций
-        consumerSteps.setPartitions(0, 1).readFirstByKeyFromJson(EXAMPLE_TOPIC, "123", Object.class);
+        consumerSteps.setPartitions(0, 1).readFirstFromJson(EXAMPLE_TOPIC, "123", Object.class);
 
         // вычитываем первое сообщение с конца за последние 5 секунд. Если ничего не будет найдено, вернется null без ошибки
-        consumerSteps.setPeriod(5000L).readFirstByKeyFromJsonWithEmptyResult(EXAMPLE_TOPIC, null, Object.class);
+        consumerSteps.setPeriod(5000L).readFirstFromJsonWithEmptyResult(EXAMPLE_TOPIC, Object.class);
 
         // вычитываем все сообщения из compact топика
-        consumerSteps.readAllCompactByKey(EXAMPLE_TOPIC, null);
+        consumerSteps.readAllCompact(EXAMPLE_TOPIC);
     }
 
     @Test
