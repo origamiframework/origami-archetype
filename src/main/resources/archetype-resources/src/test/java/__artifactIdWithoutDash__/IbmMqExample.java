@@ -3,10 +3,10 @@
 #set( $symbol_escape = '\' )
 package ${artifactIdWithoutDash};
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import ru.origami.testit_allure.allure.java_commons.Feature;
 import ru.origami.testit_allure.annotations.Description;
-import ru.origami.testit_allure.annotations.DisplayName;
 import ru.origami.testit_allure.annotations.Link;
 import ru.origami.testit_allure.annotations.Story;
 import ru.example.steps.ibm_mq.IbmMqCustomBrowser;
