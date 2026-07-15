@@ -25,7 +25,7 @@
     "password": "password"
   },
   "websocket": {
-    "url": "example.ru",
+    "url": "10.7.7.5",
     "endpoint": "api/ws-example",
     "with.wss": true
   }
