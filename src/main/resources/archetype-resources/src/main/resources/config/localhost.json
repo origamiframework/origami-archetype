@@ -1,5 +1,5 @@
 {
-  "example.api": {
+  "example.service": {
     "url": "http://localhost/api/v1",
     "port": 8080
   },
@@ -12,10 +12,10 @@
     "schema": "public"
   },
   "kafka": {
-    "bootstrap-servers": "http://localhost:29092"
+    "bootstrap-servers": "http://localhost:9092"
   },
   "ibm.mq": {
-    "host": "10.7.97.5",
+    "host": "localhsot",
     "queue.manager": "queue",
     "channel": "channel",
     "username": "username",

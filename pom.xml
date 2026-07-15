@@ -5,7 +5,7 @@
 
     <groupId>ru.origamiframework</groupId>
     <artifactId>origami-archetype</artifactId>
-    <version>1.0.9</version>
+    <version>1.1.5</version>
     <packaging>maven-archetype</packaging>
     <name>Архетип Origami</name>
     <description>Архетип Origami Framework</description>
@@ -46,7 +46,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <archetype-packaging.version>3.3.1</archetype-packaging.version>
     </properties>
 

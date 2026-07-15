@@ -13,7 +13,7 @@
     <parent>
         <groupId>ru.origamiframework</groupId>
         <artifactId>origami-framework-parent</artifactId>
-        <version>1.4.8</version>
+        <version>1.5.4</version>
     </parent>
 
     <properties>
@@ -26,7 +26,7 @@
         <junit.jupiter.execution.parallel.mode.default>same_thread</junit.jupiter.execution.parallel.mode.default>
         <junit.jupiter.execution.parallel.mode.classes.default>concurrent</junit.jupiter.execution.parallel.mode.classes.default>
         <junit.jupiter.execution.parallel.config.strategy>fixed</junit.jupiter.execution.parallel.config.strategy>
-        <junit.jupiter.execution.parallel.config.fixed.parallelism>10</junit.jupiter.execution.parallel.config.fixed.parallelism>
+        <junit.jupiter.execution.parallel.config.fixed.parallelism>5</junit.jupiter.execution.parallel.config.fixed.parallelism>
     </properties>
 
     <dependencies>
